@@ -15,6 +15,7 @@ sources:
         loaded_at_field: ordered_at
       - name: raw_items
         description: Items included in an order
+        freshness:
       - name: raw_stores
         loaded_at_field: opened_at
       - name: raw_products
